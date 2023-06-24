@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/logout"
+        android:title="Logout"
+        android:icon="@drawable/icon_logout"/>
+
+    <item
+        android:id="@+id/home"
+        android:title="Home"
+        app:showAsAction="always"
+        android:icon="@drawable/icon_home"/>
+
+    <item
+        android:id="@+id/toast"
+        android:title="Show Toast"/>
+
+<!--  Style to replace actionbar overflow icon.
+    1. set item 'android:actionOverflowButtonStyle' in AppTheme
+    <style name="MyActionButtonOverflow" parent="android:style/Widget.Holo.Light.ActionButton.Overflow">
+        <item name="android:src">@drawable/ic_launcher</item>
+        <item name="android:background">?android:attr/actionBarItemBackground</item>
+        <item name="android:contentDescription">"Lala"</item>
+    </style>
+    2.  Drawable drawable = ContextCompat.getDrawable(getApplicationContext(),R.drawable.change_pass);
+        toolbar.setOverflowIcon(drawable);
+-->
+
+</menu>
